@@ -45,8 +45,9 @@ The application allows you to:
        ├─► 3. Mark Completed ───► [ Update Task Status Flag ]
        ├─► 4. Remove Task ──────► [ Delete Task by Index Number ]
        └─► 5. Exit ─────────────► [ Terminate Program ]
+```
 
-🏗️ Architecture
+## 🏗️ Architecture
 The project follows a clean, modular procedural programming architecture contained within a single script:
 
 Data Model: Tasks are managed using a Python list of dictionaries (storing the task description and completion status boolean).
@@ -55,16 +56,18 @@ Control Flow: A while True loop keeps the application running until the user exp
 
 Input Validation: Handles user selections safely to prevent crashes from invalid menu choices or out-of-range indices.
 
+```
 to-do-list/
 ├── README.md
 └── To-Do-List.py
+```
 
-💻 Technology Used
+## 💻 Technology Used
 Python 3.x: Core programming language.
 
 Standard Library Only: Utilizes built-in Python features with zero external dependencies or third-party packages required.
 
-⚙️ How to Run
+## ⚙️ How to Run
 Clone or download this repository.
 
 Open your terminal and navigate to the project folder.
@@ -75,7 +78,9 @@ python To-Do-List.py
 
 Choose an option from the interactive menu and follow the on-screen prompts.
 
-🖥️ Example Output
+## 🖥️ Example Output
+
+```
 
 ==============================
      PYTHON TO-DO LIST
@@ -106,6 +111,7 @@ Select an option (1-5): 1
 Select an option (1-5): 3
 Enter the task number to mark as completed: 1
 Task 1 marked as completed!
+```
 
 
 
